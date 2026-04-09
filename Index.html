@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>AI LOGISTICS</h2>
+      <p>The world of the future</p>
+    </div>
+    <div class="title">
+     <h1>THALES COMPANY</h1>
+    </div>
+ </header>
+ <nav>
+    <a href="#">Home</a>
+    <a href="#">Register</a>
+    <a href="#">Contact</a>
+ </nav>
+  <main>
+     <h2>Registration form</h2>
+      <form action="https://github.com/emiliaoana/WAD-Lab1" method ="POST"novalidate>
+        <div>
+          <label for ="name">Name</label>
+          <input type ="text" id="name" name="name">
+        </div>
+         <div>
+          <label for ="username">Username</label>
+          <input type ="text" id="username" name="username">
+        </div>
+         <div>
+           <label for ="password">Password</label>
+           <input type="Password" id="password" name ="password">
+         </div>
+         <div>
+           <label for ="repeat-password">Repeat Password</label>
+           <input type ="Password" id="repeat-password" name="repeat-password">
+         </div>
+         <div>
+           <label for ="email">Email</label>
+           <input type="email" id ="email" name ="email">
+         </div>
+         <div>
+           <span>Gender</span>
+           <label><input type ="radio" name="gender" value="Male">Male</label>
+           <label><input type ="radio" name="gender" value="Female">Female</label>   
+         </div>
+         <div>
+           <label for ="telephone">Telephone</label>
+           <input type ="text" id ="telephone" name="Telephone">
+         </div>
+         <div>
+           <label for ="country">Country</label>
+           <select id ="country" name ="country">
+             <option>Romania</option>
+             <option>France</option>
+             <option>Cameroon</option>
+           </select>
+          </div>
+          <div>
+             <label>
+               <input type="checkbox" name ="subscribe">Subscribe to my maillists
+             </label>
+          </div>
+          <div>
+               <button type ="submit">Submit</button>
+               <button type ="reset">Reset</button>
+          </div>
+        </form>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
