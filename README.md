@@ -67,6 +67,9 @@ No frameworks, no libraries — pure front-end fundamentals.
 └── script.js       # Custom JavaScript validation logic
 
 ```
+## Screenshot
+
+![Aperçu du Formulaire](./Screenshot.JPG)
 
 
 ## Author
