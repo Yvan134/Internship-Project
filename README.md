@@ -7,7 +7,7 @@ This project is part of my web development coursework and serves as a demonstrat
 
 ##  Project Overview
 
-This project simulates a registration form for a fictional company: **AI LOGISTICS / THALES COMPANY**.
+This project simulates a registration form for a fictional company: **AI LOGISTICS / IMAGINARY COMPANY**.
 
 It includes:
 
